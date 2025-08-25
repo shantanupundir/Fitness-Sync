@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="start_workout">START</string>
+    <string name="duration">Duration</string>
+    <string name="time">TIME</string>
+    <string name="_00_00_00">00.00.00</string>
+    <string name="kcal">KCAL</string>
+    <string name="calories">Calories</string>
+    <string name="_0">0</string>
+    <string name="km">KM</string>
+    <string name="distance">Distance</string>
+    <string name="_0_00">0.00</string>
+    <string name="kg">KG</string>
+    <string name="reset">RESET</string>
+</resources>
