@@ -6,10 +6,15 @@ A modern Android app to track workouts, monitor calories, and analyze fitness pr
 - ⚖️ Track **weight changes**  
 - ⏱️ Stopwatch & timer for workouts
 
-## 🛠 Tech Stack
-- **Kotlin** for Android development  
-- **MVVM Architecture** (Model-View-ViewModel)  
-- **Jetpack Components** (ViewModel, LiveData, Navigation)
+🛠 Tech Stack
+Language: Kotlin
+Architecture: MVVM (Model-View-ViewModel)
+Android Jetpack Components:
+ViewModel
+LiveData
+Navigation
+Location & Mapping: OSMDroid for tracking routes
+UI: Modern Material Design components 
 
 ## 📂 Folder Structure
 FitnessSync/
