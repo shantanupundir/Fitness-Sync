@@ -10,6 +10,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.fitnessapp.R
 import com.example.fitnessapp.data.repository.FitnessRepository
 import com.example.fitnessapp.databinding.ActivityMainBinding
 import com.example.fitnessapp.ui.ViewModel.FitnessViewModel
@@ -117,7 +118,7 @@ class MainActivity : AppCompatActivity() {
             setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
             icon = ContextCompat.getDrawable(
                 this@MainActivity,
-                org.osmdroid.library.R.drawable.osm_ic_follow_me
+                R.drawable.baseline_location_on_24
             )
             title = "current location"
         }
