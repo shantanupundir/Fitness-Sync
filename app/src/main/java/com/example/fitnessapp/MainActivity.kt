@@ -10,6 +10,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.fitnessapp.R
 import com.example.fitnessapp.data.repository.FitnessRepository
 import com.example.fitnessapp.databinding.ActivityMainBinding
@@ -50,6 +51,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Thread.sleep(3000)
+        installSplashScreen()
         Configuration.getInstance().load(this, getPreferences(MODE_PRIVATE))
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
